@@ -56,3 +56,30 @@ other = "Publicaciones similares"
 
 [toc]
 other = "Índice"
+
+[skipToContent]
+other = "Ir al contenido principal"
+
+[toggleMenu]
+other = "Alternar menú de navegación"
+
+[switchTheme]
+other = "Cambiar tema"
+
+[pagination]
+other = "Paginación"
+
+[previousPage]
+other = "Página anterior"
+
+[nextPage]
+other = "Página siguiente"
+
+[currentPage]
+other = "Página actual"
+
+[goToPage]
+other = "Ir a la página"
+
+[leaveEmpty]
+other = "Deja este campo vacío"

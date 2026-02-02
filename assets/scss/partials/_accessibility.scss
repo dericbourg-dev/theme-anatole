@@ -1,0 +1,56 @@
+@use 'modules/color_theme' as color;
+
+// Skip Link - allows keyboard users to bypass navigation (WCAG 2.4.1)
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 100;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: 600;
+
+  @include color.themed() {
+    background: color.t('primary');
+    color: color.t('accent');
+  }
+
+  &:focus {
+    top: 0;
+  }
+}
+
+// Visually hidden content - accessible to screen readers but not visible
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// Global focus styles (WCAG 2.4.7 Focus Visible)
+:focus-visible {
+  outline: 2px solid;
+  outline-offset: 2px;
+
+  @include color.themed() {
+    outline-color: color.t('info');
+  }
+}
+
+// Reduced motion - respects user's motion preferences (WCAG 2.3.3)
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

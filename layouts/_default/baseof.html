@@ -11,6 +11,7 @@
 >
   {{- partial "head.html" . -}}
   <body class="body">
+    <a href="#main-content" class="skip-link">{{ i18n "skipToContent" }}</a>
     <div class="wrapper">
       <aside
         {{ if (and (or (eq .Site.Params.hidesidebar true) (eq .Params.hidesidebar true)) (not .IsHome)) }}
@@ -22,6 +23,7 @@
         {{- partial "sidebar.html" . -}}
       </aside>
       <main
+        id="main-content"
         {{ if (and (or (eq .Site.Params.hidesidebar true) (eq .Params.hidesidebar true)) (not .IsHome)) }}
           class="wrapper__main wrapper__main--fullscreen"
         {{ else }}

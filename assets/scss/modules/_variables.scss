@@ -1,17 +1,17 @@
 $accent--lightmode: #fff;
 $primary--lightmode: #464646;
-$primary-light--lightmode: #9f9f9f;
+$primary-light--lightmode: #757575; // WCAG AA compliant: 4.6:1 contrast on white
 $primary-lighter--lightmode: #eeeeee;
 $shadow--lightmode: 0 8px 16px rgba(10, 10, 10, 0.1);
 
 $accent--darkmode: #152028;
 $primary--darkmode: #eeeeee;
-$primary-light--darkmode: #9f9f9f;
+$primary-light--darkmode: #b8b8b8; // WCAG AA compliant: 7.0:1 contrast on dark
 $primary-lighter--darkmode: #464646;
 $shadow--darkmode: 0 8px 16px rgba(226, 226, 226, 0.1);
 
 $warning: #ffc107;
-$info: #6086b4;
+$info: #4a6fa3; // WCAG AA compliant: 5.3:1 contrast on white
 $success: #51d88a;
 $danger: #ef5753;
 

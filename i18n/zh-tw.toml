@@ -52,3 +52,30 @@ other = "類似的帖子"
 
 [toc]
 other = "目錄"
+
+[skipToContent]
+other = "跳轉到主要內容"
+
+[toggleMenu]
+other = "切換導航菜單"
+
+[switchTheme]
+other = "切換主題"
+
+[pagination]
+other = "分頁"
+
+[previousPage]
+other = "上一頁"
+
+[nextPage]
+other = "下一頁"
+
+[currentPage]
+other = "當前頁面"
+
+[goToPage]
+other = "轉到頁面"
+
+[leaveEmpty]
+other = "請保持此欄位為空"

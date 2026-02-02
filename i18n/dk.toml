@@ -52,3 +52,30 @@ other = "lignende indlæg"
 
 [toc]
 other = "Indholdsfortegnelse"
+
+[skipToContent]
+other = "Gå til hovedindhold"
+
+[toggleMenu]
+other = "Skift navigationsmenu"
+
+[switchTheme]
+other = "Skift tema"
+
+[pagination]
+other = "Sideinddeling"
+
+[previousPage]
+other = "Forrige side"
+
+[nextPage]
+other = "Næste side"
+
+[currentPage]
+other = "Aktuel side"
+
+[goToPage]
+other = "Gå til side"
+
+[leaveEmpty]
+other = "Lad dette felt stå tomt"

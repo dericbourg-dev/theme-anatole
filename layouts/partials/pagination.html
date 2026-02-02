@@ -1,45 +1,53 @@
 {{ if gt .Paginator.TotalPages 1 }}
-  <ul class="pagination__list">
-    {{ $.Scratch.Set "hasPrevDots" false }}
-    {{ $.Scratch.Set "hasNextDots" false }}
-    {{ if .Paginator.HasPrev }}
-      <li class="pagination__list-item">
-        <a class="page-link" href="{{ .Paginator.Prev.URL }}">
-          <i class="fa fa-angle-left" aria-label="Previous"></i>
-        </a>
-      </li>
-    {{ end }}
-    {{ range .Paginator.Pagers }}
-      {{ if eq . $.Paginator }}
+  <nav aria-label="{{ i18n "pagination" }}">
+    <ul class="pagination__list">
+      {{ $.Scratch.Set "hasPrevDots" false }}
+      {{ $.Scratch.Set "hasNextDots" false }}
+      {{ if .Paginator.HasPrev }}
         <li class="pagination__list-item">
-          <span class="page-link current">
-            {{- .PageNumber -}}
-          </span>
-        </li>
-      {{ else if or (or (eq . $.Paginator.First) (eq . $.Paginator.Prev)) (or  (eq . $.Paginator.Next) (eq . $.Paginator.Last )) }}
-        <li class="pagination__list-item">
-          <a class="page-link" href="{{ .URL }}">
-            {{- .PageNumber -}}
+          <a class="page-link" href="{{ .Paginator.Prev.URL }}" aria-label="{{ i18n "previousPage" }}">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="visually-hidden">{{ i18n "previousPage" }}</span>
           </a>
         </li>
-      {{ else }}
-        {{ if and (not ($.Scratch.Get "hasPrevDots")) (lt .PageNumber $.Paginator.PageNumber) }}
-          {{ $.Scratch.Set "hasPrevDots" true }}
-          <span class="page-link dots">&hellip;</span>
-        {{ else if and (not ($.Scratch.Get "hasNextDots")) (gt .PageNumber $.Paginator.PageNumber) }}
-          {{ $.Scratch.Set "hasNextDots" true }}
-          <span class="page-link dots">&hellip;</span>
+      {{ end }}
+      {{ range .Paginator.Pagers }}
+        {{ if eq . $.Paginator }}
+          <li class="pagination__list-item">
+            <span class="page-link current" aria-current="page" aria-label="{{ i18n "currentPage" }}">
+              {{- .PageNumber -}}
+            </span>
+          </li>
+        {{ else if or (or (eq . $.Paginator.First) (eq . $.Paginator.Prev)) (or  (eq . $.Paginator.Next) (eq . $.Paginator.Last )) }}
+          <li class="pagination__list-item">
+            <a class="page-link" href="{{ .URL }}" aria-label="{{ i18n "goToPage" }} {{ .PageNumber }}">
+              {{- .PageNumber -}}
+            </a>
+          </li>
+        {{ else }}
+          {{ if and (not ($.Scratch.Get "hasPrevDots")) (lt .PageNumber $.Paginator.PageNumber) }}
+            {{ $.Scratch.Set "hasPrevDots" true }}
+            <li class="pagination__list-item" aria-hidden="true">
+              <span class="page-link dots">&hellip;</span>
+            </li>
+          {{ else if and (not ($.Scratch.Get "hasNextDots")) (gt .PageNumber $.Paginator.PageNumber) }}
+            {{ $.Scratch.Set "hasNextDots" true }}
+            <li class="pagination__list-item" aria-hidden="true">
+              <span class="page-link dots">&hellip;</span>
+            </li>
+          {{ end }}
+
         {{ end }}
 
       {{ end }}
-
-    {{ end }}
-    {{ if .Paginator.HasNext }}
-      <li class="pagination__list-item">
-        <a class="page-link" href="{{ .Paginator.Next.URL }}">
-          <i class="fa fa-angle-right" aria-label="Next"></i>
-        </a>
-      </li>
-    {{ end }}
-  </ul>
+      {{ if .Paginator.HasNext }}
+        <li class="pagination__list-item">
+          <a class="page-link" href="{{ .Paginator.Next.URL }}" aria-label="{{ i18n "nextPage" }}">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="visually-hidden">{{ i18n "nextPage" }}</span>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
 {{ end }}

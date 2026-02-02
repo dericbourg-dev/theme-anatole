@@ -56,3 +56,30 @@ other = "Benzer gönderiler"
 
 [toc]
 other = "İçindekiler tablosu"
+
+[skipToContent]
+other = "Ana içeriğe atla"
+
+[toggleMenu]
+other = "Gezinti menüsünü aç/kapat"
+
+[switchTheme]
+other = "Tema değiştir"
+
+[pagination]
+other = "Sayfalandırma"
+
+[previousPage]
+other = "Önceki sayfa"
+
+[nextPage]
+other = "Sonraki sayfa"
+
+[currentPage]
+other = "Mevcut sayfa"
+
+[goToPage]
+other = "Sayfaya git"
+
+[leaveEmpty]
+other = "Bu alanı boş bırakın"

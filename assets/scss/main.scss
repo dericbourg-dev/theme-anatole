@@ -1,6 +1,7 @@
 @use 'modules/variables' as *;
 @use 'modules/config';
 @use 'modules/color_theme';
+@use 'partials/accessibility';
 @use 'partials/hugo';
 @use 'partials/base';
 @use 'partials/layout/html';

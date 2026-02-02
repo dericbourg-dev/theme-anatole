@@ -52,3 +52,30 @@ other = "同様の投稿"
 
 [toc]
 other = "目次"
+
+[skipToContent]
+other = "メインコンテンツへスキップ"
+
+[toggleMenu]
+other = "ナビゲーションメニューを切り替え"
+
+[switchTheme]
+other = "テーマを切り替え"
+
+[pagination]
+other = "ページネーション"
+
+[previousPage]
+other = "前のページ"
+
+[nextPage]
+other = "次のページ"
+
+[currentPage]
+other = "現在のページ"
+
+[goToPage]
+other = "ページへ移動"
+
+[leaveEmpty]
+other = "このフィールドを空のままにしてください"

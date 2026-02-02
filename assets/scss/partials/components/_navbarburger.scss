@@ -9,6 +9,17 @@
   width: 3.25rem;
   margin-left: auto;
   padding: 6px;
+  background: transparent;
+  border: none;
+
+  &:focus-visible {
+    outline: 2px solid;
+    outline-offset: 2px;
+
+    @include color.themed() {
+      outline-color: color.t('info');
+    }
+  }
   &__line {
     display: block;
     height: 1px;

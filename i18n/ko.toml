@@ -56,3 +56,30 @@ other = "비슷한 게시물"
 
 [toc]
 other = "목차"
+
+[skipToContent]
+other = "본문으로 건너뛰기"
+
+[toggleMenu]
+other = "탐색 메뉴 전환"
+
+[switchTheme]
+other = "테마 전환"
+
+[pagination]
+other = "페이지 매김"
+
+[previousPage]
+other = "이전 페이지"
+
+[nextPage]
+other = "다음 페이지"
+
+[currentPage]
+other = "현재 페이지"
+
+[goToPage]
+other = "페이지로 이동"
+
+[leaveEmpty]
+other = "이 필드를 비워두세요"

@@ -56,3 +56,30 @@ other = "Related Posts"
 
 [toc]
 other = "Table of contents"
+
+[skipToContent]
+other = "Skip to main content"
+
+[toggleMenu]
+other = "Toggle navigation menu"
+
+[switchTheme]
+other = "Switch theme"
+
+[pagination]
+other = "Pagination"
+
+[previousPage]
+other = "Previous page"
+
+[nextPage]
+other = "Next page"
+
+[currentPage]
+other = "Current page"
+
+[goToPage]
+other = "Go to page"
+
+[leaveEmpty]
+other = "Leave this field empty"

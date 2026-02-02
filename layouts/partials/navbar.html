@@ -5,11 +5,11 @@
     animated fadeInDown
   {{ end }}"
 >
-  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+  <button type="button" class="navbar-burger" aria-controls="navMenu" aria-label="{{ i18n "toggleMenu" }}" aria-expanded="false">
     <span aria-hidden="true" class="navbar-burger__line"></span>
     <span aria-hidden="true" class="navbar-burger__line"></span>
     <span aria-hidden="true" class="navbar-burger__line"></span>
-  </a>
+  </button>
   <nav class="nav">
     <ul class="nav__list" id="navMenu">
       {{ $url := .RelPermalink }}
@@ -101,9 +101,9 @@
       {{ if not .Site.Params.disableThemeSwitcher }}
         <li class="nav__list-item">
           <div class="themeswitch">
-            <a title="Switch Theme">
+            <button type="button" class="themeswitch__button" aria-label="{{ i18n "switchTheme" }}">
               <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a>
+            </button>
           </div>
         </li>
       {{ end }}

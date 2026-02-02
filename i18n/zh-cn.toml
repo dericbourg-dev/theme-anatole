@@ -52,3 +52,30 @@ other = "类似的帖子"
 
 [toc]
 other = "目录"
+
+[skipToContent]
+other = "跳转到主要内容"
+
+[toggleMenu]
+other = "切换导航菜单"
+
+[switchTheme]
+other = "切换主题"
+
+[pagination]
+other = "分页"
+
+[previousPage]
+other = "上一页"
+
+[nextPage]
+other = "下一页"
+
+[currentPage]
+other = "当前页面"
+
+[goToPage]
+other = "转到页面"
+
+[leaveEmpty]
+other = "请保持此字段为空"

@@ -56,3 +56,30 @@ other = "Postingan serupa"
 
 [toc]
 other = "Daftar isi"
+
+[skipToContent]
+other = "Lewati ke konten utama"
+
+[toggleMenu]
+other = "Beralih menu navigasi"
+
+[switchTheme]
+other = "Ganti tema"
+
+[pagination]
+other = "Paginasi"
+
+[previousPage]
+other = "Halaman sebelumnya"
+
+[nextPage]
+other = "Halaman berikutnya"
+
+[currentPage]
+other = "Halaman saat ini"
+
+[goToPage]
+other = "Ke halaman"
+
+[leaveEmpty]
+other = "Biarkan kolom ini kosong"

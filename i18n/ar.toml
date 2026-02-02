@@ -53,3 +53,30 @@ other = "مشاركات مماثلة"
 
 [toc]
 other = "جدول المحتويات"
+
+[skipToContent]
+other = "انتقل إلى المحتوى الرئيسي"
+
+[toggleMenu]
+other = "تبديل قائمة التنقل"
+
+[switchTheme]
+other = "تغيير السمة"
+
+[pagination]
+other = "ترقيم الصفحات"
+
+[previousPage]
+other = "الصفحة السابقة"
+
+[nextPage]
+other = "الصفحة التالية"
+
+[currentPage]
+other = "الصفحة الحالية"
+
+[goToPage]
+other = "انتقل إلى الصفحة"
+
+[leaveEmpty]
+other = "اترك هذا الحقل فارغًا"

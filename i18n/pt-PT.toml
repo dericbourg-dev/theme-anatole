@@ -56,3 +56,30 @@ other = "Posts semelhantes"
 
 [toc]
 other = "Índice"
+
+[skipToContent]
+other = "Saltar para o conteúdo principal"
+
+[toggleMenu]
+other = "Alternar menu de navegação"
+
+[switchTheme]
+other = "Mudar tema"
+
+[pagination]
+other = "Paginação"
+
+[previousPage]
+other = "Página anterior"
+
+[nextPage]
+other = "Próxima página"
+
+[currentPage]
+other = "Página atual"
+
+[goToPage]
+other = "Ir para a página"
+
+[leaveEmpty]
+other = "Deixe este campo vazio"

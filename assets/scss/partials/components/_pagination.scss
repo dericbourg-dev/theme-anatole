@@ -20,6 +20,22 @@
       @include color.themed() {
         color: color.t('primary');
       }
+
+      .page-link {
+        display: inline-block;
+        min-width: 24px;
+        min-height: 24px;
+        padding: 4px;
+
+        &:focus-visible {
+          outline: 2px solid;
+          outline-offset: 2px;
+
+          @include color.themed() {
+            outline-color: color.t('info');
+          }
+        }
+      }
     }
   }
 }

@@ -4,11 +4,11 @@
     <ul>
       <li>
         <label for="username">{{ i18n "name" }}</label>
-        <input class="field-style field-full" type="text" name="username" id="username" placeholder="{{ i18n "name" }}" required>
+        <input class="field-style field-full" type="text" name="username" id="username" placeholder="{{ i18n "name" }}" required aria-required="true" autocomplete="name">
       </li>
       <li>
         <label for="email">{{ i18n "email" }}</label>
-        <input class="field-style field-full" type="email" id="email" name="email" placeholder="{{i18n "email" }}" required>
+        <input class="field-style field-full" type="email" id="email" name="email" placeholder="{{i18n "email" }}" required aria-required="true" autocomplete="email">
       </li>
       <li>
         <label for="message">{{ i18n "message" }}</label>
@@ -18,10 +18,11 @@
         <div class="g-recaptcha" data-sitekey="{{ .Site.Params.contactFormReCaptcha }}"></div>
       </li>
       <li>
-        <input class="field-style" type="submit" value="{{ i18n "send" }}" />
+        <button class="field-style" type="submit">{{ i18n "send" }}</button>
       </li>
-      <li>
-        <input type="text" name="_gotcha" style="display:none" />
+      <li class="visually-hidden" aria-hidden="true">
+        <label for="gotcha">{{ i18n "leaveEmpty" }}</label>
+        <input type="text" name="_gotcha" id="gotcha" tabindex="-1" autocomplete="off">
       </li>
     </ul>
   </form>

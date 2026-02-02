@@ -52,3 +52,30 @@ other = "Vastaavia viestejä"
 
 [toc]
 other = "Sisällysluettelo"
+
+[skipToContent]
+other = "Siirry pääsisältöön"
+
+[toggleMenu]
+other = "Vaihda navigointivalikko"
+
+[switchTheme]
+other = "Vaihda teema"
+
+[pagination]
+other = "Sivutus"
+
+[previousPage]
+other = "Edellinen sivu"
+
+[nextPage]
+other = "Seuraava sivu"
+
+[currentPage]
+other = "Nykyinen sivu"
+
+[goToPage]
+other = "Siirry sivulle"
+
+[leaveEmpty]
+other = "Jätä tämä kenttä tyhjäksi"

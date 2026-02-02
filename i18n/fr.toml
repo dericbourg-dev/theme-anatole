@@ -52,3 +52,30 @@ other = "Messages similaires"
 
 [toc]
 other = "Table des matières"
+
+[skipToContent]
+other = "Aller au contenu principal"
+
+[toggleMenu]
+other = "Ouvrir ou fermer le menu de navigation"
+
+[switchTheme]
+other = "Changer de thème"
+
+[pagination]
+other = "Pagination"
+
+[previousPage]
+other = "Page précédente"
+
+[nextPage]
+other = "Page suivante"
+
+[currentPage]
+other = "Page actuelle"
+
+[goToPage]
+other = "Aller à la page"
+
+[leaveEmpty]
+other = "Laissez ce champ vide"

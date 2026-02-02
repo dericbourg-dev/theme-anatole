@@ -56,3 +56,30 @@ other = "Hasonló hozzászólások"
 
 [toc]
 other = "Tartalomjegyzék"
+
+[skipToContent]
+other = "Ugrás a fő tartalomhoz"
+
+[toggleMenu]
+other = "Navigációs menü váltása"
+
+[switchTheme]
+other = "Téma váltása"
+
+[pagination]
+other = "Oldalszámozás"
+
+[previousPage]
+other = "Előző oldal"
+
+[nextPage]
+other = "Következő oldal"
+
+[currentPage]
+other = "Aktuális oldal"
+
+[goToPage]
+other = "Ugrás az oldalra"
+
+[leaveEmpty]
+other = "Hagyja üresen ezt a mezőt"

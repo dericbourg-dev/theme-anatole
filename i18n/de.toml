@@ -56,3 +56,30 @@ other = "Ähnliche Beiträge"
 
 [toc]
 other = "Inhaltsverzeichnis"
+
+[skipToContent]
+other = "Zum Hauptinhalt springen"
+
+[toggleMenu]
+other = "Navigationsmenü umschalten"
+
+[switchTheme]
+other = "Design wechseln"
+
+[pagination]
+other = "Seitennummerierung"
+
+[previousPage]
+other = "Vorherige Seite"
+
+[nextPage]
+other = "Nächste Seite"
+
+[currentPage]
+other = "Aktuelle Seite"
+
+[goToPage]
+other = "Gehe zu Seite"
+
+[leaveEmpty]
+other = "Dieses Feld leer lassen"

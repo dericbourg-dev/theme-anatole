@@ -56,3 +56,30 @@ other = "پست های مشابه"
 
 [toc]
 other = "فهرست مطالب"
+
+[skipToContent]
+other = "رفتن به محتوای اصلی"
+
+[toggleMenu]
+other = "تغییر منوی ناوبری"
+
+[switchTheme]
+other = "تغییر تم"
+
+[pagination]
+other = "صفحه‌بندی"
+
+[previousPage]
+other = "صفحه قبلی"
+
+[nextPage]
+other = "صفحه بعدی"
+
+[currentPage]
+other = "صفحه فعلی"
+
+[goToPage]
+other = "رفتن به صفحه"
+
+[leaveEmpty]
+other = "این فیلد را خالی بگذارید"

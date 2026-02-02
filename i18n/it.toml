@@ -52,3 +52,30 @@ other = "Post simili"
 
 [toc]
 other = "Indice dei contenuti"
+
+[skipToContent]
+other = "Vai al contenuto principale"
+
+[toggleMenu]
+other = "Attiva/disattiva menu di navigazione"
+
+[switchTheme]
+other = "Cambia tema"
+
+[pagination]
+other = "Paginazione"
+
+[previousPage]
+other = "Pagina precedente"
+
+[nextPage]
+other = "Pagina successiva"
+
+[currentPage]
+other = "Pagina corrente"
+
+[goToPage]
+other = "Vai alla pagina"
+
+[leaveEmpty]
+other = "Lascia questo campo vuoto"

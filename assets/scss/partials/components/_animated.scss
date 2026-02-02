@@ -10,6 +10,11 @@
   -o-animation-name: fadeInDown;
   animation-name: fadeInDown;
 
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+    transition: none;
+  }
+
   @-webkit-keyframes fadeInDown {
     0% {
       -webkit-transform: translateY(-20px);
